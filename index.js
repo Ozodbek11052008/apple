@@ -6,7 +6,7 @@ require('dotenv').config();
 const app = express();
 const config = {
     BOT_TOKEN: process.env.BOT_TOKEN,
-    CHANNEL_USERNAME: process.env.CHANNEL_USERNAME,
+    CHANNEL_USERNAME: "@RevizorApple",
     CHANNEL_ID: process.env.CHANNEL_ID,
     WEBAPP_URL: process.env.WEBAPP_URL || 'https://iridescent-crostata-66ab3f.netlify.app/',
     ADMIN_USERNAME: 'Izzat_T',
