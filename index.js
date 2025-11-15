@@ -176,7 +176,7 @@ async function showAdminPanel(ctx) {
 
 async function showWebAppButton(ctx, isEdit = false) {
     const message = `🎉 <b>Xush kelibsiz, ${ctx.from.first_name}!</b>\n\n` +
-                   `Botdan foydalanish uchun @rvzrcdr dan login ma'lumotlarini oling \n\n` + `<b>10ta do'stingizni  taklif  qiling  va  bizdan  70  000  som  bonus oling</b>`;
+                   `Botdan foydalanish uchun @Revizoradmin dan login ma'lumotlarini oling \n\n` ;
     
     const keyboard = Markup.inlineKeyboard([
         [Markup.button.webApp('🌐 Veb Ilovani Ochish', config.WEBAPP_URL)]
